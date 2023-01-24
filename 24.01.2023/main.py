@@ -15,11 +15,11 @@ print('Задание 3. Из строки \'You have a problem with authority, 
 str = 'You have a problem with authority, Mr. Anderson.'
 s = set(str)
 listt = list(str)
-#print(s)
 m = list(map(listt.count, s))
-#print(list(map(listt.count, s)))
 d = dict(zip(s, m))
+
 d1 = dict(zip(set(str), list(map(listt.count, s))))
+
 print(d)
 print (d1)
 print(d == d1)
