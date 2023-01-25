@@ -7,7 +7,7 @@ print()
 
 print('Задание 2. Каждый третий символ строки \'Guido van Rossum is the benevolent dictator for life\':')
 str = 'Guido van Rossum is the benevolent dictator for life'
-str1 = str[::3]
+str1 = str[2::3]
 print(str1)
 print()
 
