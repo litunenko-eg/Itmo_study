@@ -1,7 +1,7 @@
 #1 task
-print('Задание 1. Строка \'Python is the best programming language in the world\' с 6го символа по -7й включительно:')
+print('Задание 1. Строка \'Python is the best programming language in the world\' с 6го символа по -7й:')
 str = 'Python is the best programming language in the world'
-str1 = str[6:-6]
+str1 = str[5:-7]
 print(str1)
 print()
 
